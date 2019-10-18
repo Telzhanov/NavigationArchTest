@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "485783167094",
+    "firebase_url": "https://navigationarchtest.firebaseio.com",
+    "project_id": "navigationarchtest",
+    "storage_bucket": "navigationarchtest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485783167094:android:50f3d478a2d53bb329ff57",
+        "android_client_info": {
+          "package_name": "com.example.navigationarchtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485783167094-be9i036s7mvev5237fn83b89tk56j7d4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1cYMAGrBFb6CYJO3UpX9yr5RjSWAXulk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485783167094-be9i036s7mvev5237fn83b89tk56j7d4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

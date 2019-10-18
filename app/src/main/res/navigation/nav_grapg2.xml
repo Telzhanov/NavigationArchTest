@@ -12,6 +12,12 @@
         tools:layout="@layout/fragment_profile"
         >
 
+        <deepLink
+            android:id = "@+id/profile_deeplink"
+            app:uri="app://example/user"
+            android:autoVerify="true"
+            />
+
         <action
             android:id="@+id/to_detail"
             app:destination="@id/detail_fragment"
@@ -26,6 +32,14 @@
         android:name="com.example.navigationarchtest.DetailFragment"
         android:label="Detail"
         tools:layout="@layout/fragment_detail"
-        />
+        >
+
+        <deepLink
+            android:id="@+id/detail_deeplink"
+            app:uri="app://example/user/detail"
+            android:autoVerify="true"
+            />
+
+    </fragment>
 
 </navigation>
